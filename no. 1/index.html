@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TABLE</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Keterangan</th>
+            <th>Bersedia Membayar:</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Bersedia membayar Dana Sumbangan Pembangunan (DSP) Sebesar Rp 8.500.000 dengan mekanisme pembayaran Dana Sumbangan Pendidikan</td>
+            <td><input type="radio" id="html" name="DSP" value="LUNAS">
+                <label for="Lunas">Lunas saat Daftar Ulang</label> 
+                <br>
+                <input type="radio" id="html" name="DSP" value="CICIL">
+                <label for="CICIL">60% dibayarkan saat daftar ulang, dan sisanya dibayarkan paling lambat tanggal 13 juli 2024</label> 
+            </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Bersedia membayar Sumbangan Penyelenggara Pendidikan (SPP) secara rutin setiap bulan sebesar Rp 550.000 yang dibayarkan sebelum tanggal 10 setiap bulannya kecuali bulan juli 2024</td>
+            <td><input type="checkbox" id="myCheck" onclick="myFunction()"></td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td><b>Pembayaran lainnya.</b><br> <br> Setelah Putra/Putri kami diterima di SMK Wikrama Bogor, Kami juga bersedia memberikan: <br> <br> <br> <br> a. Wakaf pembangunan Masjid Al-Ikram: <br> <br> <br> b. Zakat Infaq dan Sodaqoh secara rutin setiap bulan: </td>
+            <td><input type="radio" id="html" name="Infak" value="JUMLAH">
+                <label for="Jumlah">Rp 300.000</label>
+                <br>
+                <input type="radio" id="html" name="Infak" value="JUMLAH">
+                <label for="Jumlah">Rp 500.000</label>
+                <br>
+                <input type="radio" id="html" name="Infak" value="JUMLAH">
+                <label for="Jumlah">Rp 1.000.000</label>
+                <br>
+                <input type="radio" id="html" name="Infak" value="JUMLAH">
+                <label for="Jumlah">Rp 2.000.000</label>
+                <br>
+                <input type="radio" id="html" name="Infak" value="JUMLAH">
+                <label for="Jumlah">Rp 5.000.000</label>
+                <br>
+                <br>
+                <input type="radio" id="html" name="Infak" value="JUMLAH">
+                <label for="Jumlah">> Rp 5.000.000 atau Rp <input type="text" onfocus="this.value=''" value="Type here"></label>
+                <br>
+                <br>
+                <br>
+                <input type="text" onfocus="this.value=''" value="Rp 20.000">
+            </td>
+            
+        </tr>
+    </table>
+</body>
+</html>
